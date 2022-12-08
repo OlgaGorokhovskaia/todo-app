@@ -1,0 +1,51 @@
+.wrapper {
+    width: min(100% - 15px, 600px);
+    margin-inline: auto;
+    border: 1px solid #000;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input {
+    display: inline-block;
+    width: 70%;
+}
+
+.button {
+    display: inline-block;
+    width: 30%;
+    height: 32px;
+    font-size: 14px;
+    padding: 6px;
+    background-color: #0FAFAF;
+    color: #FFF;
+    border: none;
+    transition: background-color ease 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #0FCFCF;
+}
+
+.checkbox {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
