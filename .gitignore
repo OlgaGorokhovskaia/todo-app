@@ -1,9 +1,11 @@
 # dependencies
 /node_modules
+*/node_modules
 
 # production
-/build
+**/build
 
 # misc
 .DS_Store
-.env
+**/.DS_Store
+**/.env
